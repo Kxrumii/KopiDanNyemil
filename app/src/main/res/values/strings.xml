@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kopi Dan Nyemil</string>
+
+    <string name="welcome_tagline">
+        Temukan kopi dan camilan favoritmu.
+    </string>
+
+    <string name="start_button">Mulai Sekarang</string>
+
+    <string name="logo_description">
+        Logo Kopi dan Nyemil berupa ilustrasi cangkir kopi
+    </string>
+
+    <string name="start_message">
+        Selamat datang di Kopi dan Nyemil!
+    </string>
+
+    <string name="signup_title">Sign up</string>
+
+    <string name="signup_description">
+    Bergabung dan nikmati berbagai pilihan kopi
+    serta camilan favoritmu.
+    </string>
+
+    <string name="register_button">Register</string>
+
+    <string name="login_button">Login</string>
+
+    <string name="register_placeholder">
+    Halaman Register akan segera tersedia.
+    </string>
+
+    <string name="login_placeholder">
+    Halaman Login akan segera tersedia.
+    </string>
+
+    <string name="login_screen_title">Login User</string>
+
+    <string name="login_subtitle">
+    Masuk untuk melanjutkan pesananmu.
+    </string>
+
+    <string name="username_hint">Username</string>
+
+    <string name="password_hint">Password</string>
+
+    <string name="error_username_required">
+    Username wajib diisi.
+    </string>
+
+    <string name="error_password_required">
+    Password wajib diisi.
+    </string>
+
+    <string name="login_success">
+    Login berhasil. Selamat datang!
+    </string>
+
+    <string name="login_invalid_credentials">
+    Username atau password salah.
+    </string>
+
+    <string name="register_screen_title">Register</string>
+    <string name="register_subtitle">Buat akun untuk mulai memesan.</string>
+    <string name="full_name_hint">Nama Lengkap</string>
+    <string name="register_meta_index">REGISTER / 02</string>
+    <string name="register_meta_subtitle">A NEW MOMENT</string>
+    <string name="register_eyebrow">A NEW MOMENT</string>
+    <string name="register_headline">Create account.</string>
+    <string name="register_headline_first">Create your</string>
+    <string name="register_headline_second">little Moment.</string>
+    <string name="register_supporting">Buat akun untuk menyimpan nama dan mulai memilih kopi serta camilan favoritmu.</string>
+    <string name="register_create_account">Create Account</string>
+    <string name="register_login_prompt">Sudah punya akun? </string>
+    <string name="register_login_link">Masuk di sini</string>
+    <string name="register_full_name_hint">Nama Lengkap</string>
+    <string name="register_username_hint">Pilih username</string>
+    <string name="register_password_hint">Minimal 6 karakter</string>
+
+    <string name="error_full_name_required">Nama lengkap wajib diisi.</string>
+
+    <string name="error_username_short">Username minimal 4 karakter.</string>
+
+    <string name="error_password_short">Password minimal 6 karakter.</string>
+
+    <string name="register_success">Registrasi berhasil! Silakan login.</string>
+
+    <string name="login_no_account">Belum ada akun. Silakan register terlebih dahulu.</string>
+
+    <string name="home_greeting">Halo, %1$s!</string>
+    <string name="home_subtitle">Senang melihatmu kembali.</string>
+    <string name="home_menu_title">Menu</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_order">Order</string>
+    <string name="nav_profile">Profile</string>
+
+    <string name="product_selected">%1$s dipilih. Silakan lanjutkan melalui Order.</string>
+
+    <string name="order_placeholder">Halaman Order akan tersedia pada tahap berikutnya.</string>
+    <string name="profile_placeholder">Halaman Profile akan tersedia pada tahap berikutnya.</string>
+
+    <string name="delivery_label">PENGIRIMAN KE</string>
+
+    <string name="delivery_placeholder">Pilih alamat pengiriman</string>
+
+    <string name="profile_description">Buka profil pengguna</string>
+
+    <string name="location_description">Lokasi pengiriman</string>
+
+    <string name="cart_description">Buka keranjang belanja</string>
+
+    <string name="address_placeholder">Fitur alamat akan tersedia pada tahap berikutnya.</string>
+
+    <string name="cart_placeholder">Fitur keranjang akan tersedia pada tahap berikutnya.</string>
+
+    <!-- Welcome Redesign -->
+    <string name="welcome_brand_label">KOPI DAN NYEMIL</string>
+
+    <string name="welcome_brand_subtitle">
+    COFFEE &amp; LITTLE PLEASURES
+    </string>
+
+    <string name="welcome_eyebrow">
+    A LITTLE MOMENT OF HAPPINESS
+    </string>
+
+    <string name="welcome_headline_first">
+    More than just coffee,
+    </string>
+
+    <string name="welcome_headline_second">
+    it\'s a vibe.
+    </string>
+
+
+    <!-- Sign Up Redesign -->
+    <string name="signup_eyebrow">AUTHENTICATION / 01</string>
+    <string name="signup_meta_subtitle">A WORLD OF LITTLE PLEASURES</string>
+    <string name="signup_headline_first">Every day deserves</string>
+    <string name="signup_headline_second">a little sweetness.</string>
+    <string name="signup_supporting">Buat akun baru atau masuk ke akunmu untuk menikmati kopi dan camilan favorit.</string>
+    <string name="signup_action_label">CHOOSE YOUR PATH</string>
+    <string name="signup_register_cta">Mulai Buat Akun</string>
+    <string name="signup_login_prompt">Sudah punya akun? </string>
+    <string name="signup_login_cta">Masuk ke Akun</string>
+    <string name="signup_footer">YOUR LITTLE MOMENT STARTS HERE.</string>
+    <string name="brand_monogram">K&amp;N</string>
+
+    <!-- Login Redesign -->
+    <string name="login_meta_index">LOGIN / 03</string>
+    <string name="login_meta_subtitle">A FAMILIAR MOMENT</string>
+    <string name="login_eyebrow">A FAMILIAR MOMENT</string>
+    <string name="login_headline">Welcome back.</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="login_button_submit">Masuk ke Akun</string>
+    <string name="login_no_account_prompt">Belum punya akun? </string>
+    <string name="login_register_link">Daftar sekarang</string>
+    <string name="back_description">Kembali</string>
+    <string name="toggle_password_visibility">Tampilkan atau sembunyikan password</string>
+
+    <!-- Home Redesign -->
+    <string name="home_meta_index">INDEX / 05</string>
+    <string name="home_meta_subtitle">THE COFFEE EXPERIENCE</string>
+    <string name="home_featured_subtitle">TODAY\'S SPECIAL MENU</string>
+    <string name="home_featured_headline">Kopi Susu Gula Aren</string>
+    <string name="home_featured_tag">Rekomendasi Barista</string>
+    <string name="home_category_all">Semua</string>
+    <string name="home_category_coffee">Coffee</string>
+    <string name="home_category_non_coffee">Non-Coffee</string>
+    <string name="home_category_snacks">Snacks</string>
+    <string name="home_category_bakery">Bakery</string>
+    <string name="add_to_cart_desc">Tambah produk</string>
+
+    <!-- Profile -->
+    <string name="profile_meta_index">PROFILE</string>
+    <string name="profile_meta_subtitle">YOUR PERSONAL SPACE</string>
+    <string name="profile_headline">A space of your own.</string>
+    <string name="profile_avatar_description">Avatar pengguna</string>
+    <string name="profile_personal_details">PERSONAL DETAILS</string>
+    <string name="profile_full_name_label">Nama Lengkap</string>
+    <string name="profile_full_name_hint">Masukkan nama lengkap</string>
+    <string name="profile_username_label">Username</string>
+    <string name="profile_save_changes">Simpan Perubahan</string>
+    <string name="profile_logout">Keluar dari Akun</string>
+    <string name="profile_error_name_required">Nama lengkap tidak boleh kosong.</string>
+    <string name="profile_save_success">Perubahan profil berhasil disimpan.</string>
+    <string name="profile_logout_title">Keluar dari akun?</string>
+    <string name="profile_logout_message">Kamu akan kembali ke halaman Welcome. Data akunmu tetap tersimpan di perangkat ini.</string>
+    <string name="profile_logout_confirm">Keluar</string>
+    <string name="profile_logout_cancel">Batal</string>
+    <string name="profile_logout_success">Berhasil keluar dari akun.</string>
+
+    <!--  Order  -->
+    <string name="product_added_to_cart">%1$s ditambahkan ke keranjang.</string>
+
+    <string name="order_meta_index">ORDER</string>
+    <string name="order_meta_cart">YOUR LITTLE INDULGENCE</string>
+    <string name="order_meta_address">CHECKOUT / ADDRESS</string>
+
+    <string name="order_cart_eyebrow">YOUR SELECTION</string>
+    <string name="order_cart_headline">A little treat for today.</string>
+    <string name="order_cart_description">Periksa pilihanmu sebelum menentukan tempat pengiriman.</string>
+
+    <string name="order_empty_title">Keranjangmu masih kosong.</string>
+    <string name="order_empty_description">Pilih kopi dan camilan favoritmu untuk memulai pesanan.</string>
+
+    <string name="order_summary_title">ORDER SUMMARY</string>
+    <string name="order_subtotal">Subtotal</string>
+    <string name="order_delivery_fee">Biaya pengiriman</string>
+    <string name="order_total">Total</string>
+    <string name="order_action_total">TOTAL PESANAN</string>
+
+    <string name="order_continue">Lanjut ke Alamat</string>
+    <string name="order_browse_menu">Jelajahi Menu</string>
+
+    <string name="order_address_eyebrow">DELIVERY DETAILS</string>
+    <string name="order_address_headline">Almost there.\nWhere to?</string>
+    <string name="order_address_description">Lengkapi informasi penerima agar pesananmu punya tujuan.</string>
+    <string name="order_address_summary">%1$d item • Total %2$s</string>
+
+    <string name="order_delivery_block_title">Alamat Pengiriman</string>
+    <string name="order_delivery_block_subtitle">Gunakan alamat yang dapat menerima pesanan.</string>
+
+    <string name="order_recipient_label">Nama Penerima</string>
+    <string name="order_recipient_hint">Masukkan nama penerima</string>
+    <string name="order_address_label">Alamat Lengkap</string>
+    <string name="order_address_hint">Nama jalan, nomor rumah, RT/RW, kelurahan, kecamatan</string>
+    <string name="order_landmark_label">Patokan / Detail Tambahan</string>
+    <string name="order_landmark_hint">Contoh: Rumah pagar hitam, dekat minimarket</string>
+
+    <string name="order_submit">Order dan Kirim</string>
+    <string name="order_save_address">Simpan Alamat</string>
+    <string name="order_recipient_error">Nama penerima wajib diisi.</string>
+    <string name="order_address_error">Alamat lengkap wajib diisi.</string>
+    <string name="order_address_saved">Alamat pengiriman berhasil disimpan.</string>
+
+    <string name="order_created_title">Pesanan berhasil dibuat</string>
+    <string name="order_created_message">Nomor pesanan lokal: %1$s\nPesananmu sudah tercatat di aplikasi.</string>
+    <string name="order_done">Kembali ke Beranda</string>
+
+    <string name="cart_remove">Hapus</string>
+    <string name="cart_quantity_decrease">Kurangi jumlah</string>
+    <string name="cart_quantity_increase">Tambah jumlah</string>
+
+    <!--  Confirmation  -->
+    <string name="confirmation_meta_index">ORDER / COMPLETED</string>
+    <string name="confirmation_success_description">Pesanan berhasil dibuat</string>
+    <string name="confirmation_success_label">A LITTLE HAPPINESS IS ON ITS WAY</string>
+    <string name="confirmation_headline">Pesanan Berhasil Dibuat.</string>
+    <string name="confirmation_description">Terima kasih sudah memesan di Kopi dan Nyemil. Pesananmu berhasil dicatat di aplikasi.</string>
+
+    <string name="confirmation_order_label">ORDER REFERENCE</string>
+    <string name="confirmation_summary_title">ORDER SUMMARY</string>
+    <string name="confirmation_delivery_title">DELIVERY DETAILS</string>
+
+    <string name="confirmation_subtotal">Subtotal</string>
+    <string name="confirmation_delivery_fee">Biaya pengiriman</string>
+    <string name="confirmation_total">Total Pesanan</string>
+
+    <string name="confirmation_landmark_format">Patokan: %1$s</string>
+    <string name="confirmation_home_button">Kembali ke Beranda</string>
+
+</resources>

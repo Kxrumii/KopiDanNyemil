@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="180dp"
+    android:height="60dp"
+    android:viewportWidth="360"
+    android:viewportHeight="120">
+
+    <!-- Secondary Accent Layer: warm latte crema contour -->
+    <path
+        android:fillColor="@color/latte"
+        android:pathData="
+            M 0,25
+            C 75,0 130,72 205,62
+            C 255,55 305,22 360,38
+            L 360,120
+            L 0,120
+            Z" />
+
+    <!-- Primary Canvas Wave: Oat Milk (#FFF7ED) merging into canvas -->
+    <path
+        android:fillColor="@color/oat_milk"
+        android:pathData="
+            M 0,44
+            C 80,16 135,90 215,80
+            C 265,72 308,38 360,54
+            L 360,120
+            L 0,120
+            Z" />
+</vector>

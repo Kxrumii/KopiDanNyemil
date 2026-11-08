@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display / Hero Headline -->
+    <style name="KopiDisplayText">
+        <item name="android:fontFamily">@font/instrument_serif</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/text_display</item>
+        <item name="android:textColor">@color/espresso</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- Page Title -->
+    <style name="KopiPageTitleText">
+        <item name="android:fontFamily">@font/instrument_serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_page_title</item>
+        <item name="android:textColor">@color/espresso</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- Section Title -->
+    <style name="KopiSectionTitleText">
+        <item name="android:fontFamily">@font/manrope</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_section_title</item>
+        <item name="android:textColor">@color/espresso</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- Body Text -->
+    <style name="KopiBodyText">
+        <item name="android:fontFamily">@font/manrope</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:textColor">@color/cocoa</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- Caption -->
+    <style name="KopiCaptionText">
+        <item name="android:fontFamily">@font/manrope</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_caption</item>
+        <item name="android:textColor">@color/cocoa</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- Micro Label -->
+    <style name="KopiMicroLabelText">
+        <item name="android:fontFamily">@font/ibm_plex_mono_regular</item>
+        <item name="android:textSize">@dimen/text_micro</item>
+        <item name="android:textColor">@color/cocoa</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- Button Text -->
+    <style name="KopiButtonText">
+        <item name="android:fontFamily">@font/manrope</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/pure_white</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- Primary Button -->
+    <style name="KopiPrimaryButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:fontFamily">@font/manrope</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/pure_white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- Secondary Button -->
+    <style name="KopiSecondaryButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:background">@drawable/bg_button_secondary</item>
+        <item name="android:fontFamily">@font/manrope</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/espresso</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- Input Field -->
+    <style name="KopiInput">
+        <item name="android:layout_height">@dimen/input_height</item>
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:fontFamily">@font/manrope</item>
+        <item name="android:textSize">@dimen/text_body_small</item>
+        <item name="android:textColor">@color/espresso</item>
+        <item name="android:textColorHint">@color/cocoa</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>

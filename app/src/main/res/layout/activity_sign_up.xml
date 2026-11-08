@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/oat_milk"
+    tools:context=".SignUpActivity">
+
+    <ScrollView
+        android:id="@+id/signupScroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/heroContainer"
+                android:layout_width="match_parent"
+                android:layout_height="290dp">
+
+                <ImageView
+                    android:id="@+id/ivSignupCoffee"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/product_kopi_susu_aren"
+                    android:scaleType="centerCrop"
+                    android:scaleX="1.06"
+                    android:scaleY="1.06"
+                    android:contentDescription="@null"
+                    android:importantForAccessibility="no" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#10382419" />
+
+                <ImageView
+                    android:id="@+id/ivSignupOrganicWave"
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:layout_gravity="bottom"
+                    android:src="@drawable/bg_signup_liquid_wave"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@null"
+                    android:importantForAccessibility="no" />
+
+                <LinearLayout
+                    android:id="@+id/topBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:paddingStart="24dp"
+                    android:paddingEnd="24dp"
+                    android:paddingTop="16dp">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/brand_monogram"
+                        android:fontFamily="@font/instrument_serif"
+                        android:textStyle="italic"
+                        android:textSize="22sp"
+                        android:textColor="@color/caramel" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/signupContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="-24dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:paddingBottom="36dp">
+
+                <LinearLayout
+                    android:id="@+id/headlineContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvSignupHeadlineFirst"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/signup_headline_first"
+                        android:fontFamily="@font/instrument_serif"
+                        android:textStyle="italic"
+                        android:textSize="44sp"
+                        android:textColor="@color/espresso"
+                        android:includeFontPadding="false" />
+
+                    <TextView
+                        android:id="@+id/tvSignupHeadlineSecond"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-4dp"
+                        android:text="@string/signup_headline_second"
+                        android:fontFamily="@font/instrument_serif"
+                        android:textStyle="italic"
+                        android:textSize="44sp"
+                        android:textColor="@color/caramel"
+                        android:includeFontPadding="false" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvSignupDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/signup_supporting"
+                    android:fontFamily="@font/manrope"
+                    android:textSize="14sp"
+                    android:textColor="@color/cocoa"
+                    android:lineSpacingExtra="4dp" />
+
+                <View
+                    android:id="@+id/dividerLine"
+                    android:layout_width="48dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="24dp"
+                    android:background="@color/caramel" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:background="@drawable/bg_button_primary_pill"
+                    android:fontFamily="@font/manrope"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="@string/signup_register_cta"
+                    android:textColor="@color/pure_white"
+                    android:textAllCaps="false"
+                    android:elevation="2dp" />
+
+                <LinearLayout
+                    android:id="@+id/loginRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/signup_login_prompt"
+                        android:fontFamily="@font/manrope"
+                        android:textSize="14sp"
+                        android:textColor="@color/cocoa" />
+
+                    <TextView
+                        android:id="@+id/btnLogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/signup_login_cta"
+                        android:fontFamily="@font/manrope"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:textColor="@color/espresso"
+                        android:background="?attr/selectableItemBackground"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:clickable="true"
+                        android:focusable="true" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvSignupFooter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="32dp"
+                    android:text="@string/signup_footer"
+                    style="@style/KopiMicroLabelText"
+                    android:textColor="@color/cocoa"
+                    android:letterSpacing="0.08" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

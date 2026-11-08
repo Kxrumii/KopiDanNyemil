@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="180dp"
+    android:height="70dp"
+    android:viewportWidth="360"
+    android:viewportHeight="140">
+
+    <!-- Layer 1: Caramel Gula Aren Accent Contour -->
+    <path
+        android:fillColor="@color/caramel"
+        android:pathData="
+            M 0,35
+            C 75,5 130,85 210,75
+            C 265,68 310,30 360,50
+            L 360,140
+            L 0,140
+            Z" />
+
+    <!-- Layer 2: Creamy Latte Wave -->
+    <path
+        android:fillColor="@color/latte"
+        android:pathData="
+            M 0,48
+            C 78,18 135,98 215,88
+            C 268,81 312,44 360,64
+            L 360,140
+            L 0,140
+            Z" />
+
+    <!-- Layer 3: Primary Oat Milk Canvas Surface -->
+    <path
+        android:fillColor="@color/oat_milk"
+        android:pathData="
+            M 0,64
+            C 82,34 140,114 220,104
+            C 272,96 315,58 360,80
+            L 360,140
+            L 0,140
+            Z" />
+
+</vector>

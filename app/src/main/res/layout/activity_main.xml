@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/espresso"
+    tools:context=".MainActivity">
+
+    <!-- Full-screen Hero Photography -->
+    <ImageView
+        android:id="@+id/ivWelcomeHero"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/hero_welcome"
+        android:scaleType="centerCrop"
+        android:contentDescription="@null"
+        android:importantForAccessibility="no"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Dark overlay for text readability -->
+    <View
+        android:id="@+id/welcomeOverlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#59000000"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Brand Header -->
+    <LinearLayout
+        android:id="@+id/brandHeader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/spacing_24"
+        android:layout_marginStart="@dimen/screen_horizontal_padding"
+        android:layout_marginEnd="@dimen/screen_horizontal_padding"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_brand_label"
+                android:textColor="@color/oat_milk"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/manrope" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_brand_subtitle"
+                style="@style/KopiMicroLabelText"
+                android:textColor="@color/latte" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Main Welcome Content -->
+    <LinearLayout
+        android:id="@+id/welcomeContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/spacing_24"
+        android:layout_marginStart="@dimen/screen_horizontal_padding"
+        android:layout_marginEnd="@dimen/screen_horizontal_padding"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Eyebrow -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_eyebrow"
+            style="@style/KopiMicroLabelText"
+            android:textColor="@color/caramel" />
+
+        <!-- Headline -->
+        <TextView
+            android:id="@+id/tvWelcomeHeadlineFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            style="@style/KopiDisplayText"
+            android:text="@string/welcome_headline_first"
+            android:textColor="@color/oat_milk"
+            android:textSize="46sp"
+            android:maxLines="1"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="32sp"
+            android:autoSizeMaxTextSize="46sp"
+            android:autoSizeStepGranularity="1sp"/>
+
+        <TextView
+            android:id="@+id/tvWelcomeHeadlineSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/KopiDisplayText"
+            android:text="@string/welcome_headline_second"
+            android:textColor="@color/caramel"
+            android:textSize="46sp"
+            android:maxLines="1"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="32sp"
+            android:autoSizeMaxTextSize="46sp"
+            android:autoSizeStepGranularity="1sp"/>
+
+        <!-- Tagline -->
+        <TextView
+            android:id="@+id/tvWelcomeTagline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/welcome_tagline"
+            android:textColor="@color/oat_milk"
+            android:textSize="14sp"
+            android:fontFamily="@font/manrope" />
+
+        <!-- Main CTA -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/bg_welcome_button"
+            android:text="@string/start_button"
+            android:textColor="@color/espresso"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/manrope"
+            android:textAllCaps="false"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp" />
+
+    </LinearLayout>
+
+    <!-- Full-screen Reveal Overlay for Transition to Sign Up -->
+    <View
+        android:id="@+id/revealOverlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/oat_milk"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="12dp"
+    android:background="@drawable/bg_home_product_card"
+    android:elevation="1dp">
+
+    <!-- Product Photography or Emoji Container -->
+    <FrameLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/ivProductImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bg_product_icon"
+            android:contentDescription="@null"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:id="@+id/tvProductEmoji"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:visibility="gone"
+            android:importantForAccessibility="no" />
+
+    </FrameLayout>
+
+    <!-- Product Info Details -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/manrope"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/espresso"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/tvProductDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/manrope"
+            android:textSize="12sp"
+            android:textColor="@color/cocoa"
+            android:maxLines="2"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/tvProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/manrope"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/caramel" />
+
+    </LinearLayout>
+
+    <!-- Quick Add Button -->
+    <ImageButton
+        android:id="@+id/btnAddProduct"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:background="@drawable/bg_button_primary_pill"
+        android:src="@drawable/ic_plus"
+        android:scaleType="centerInside"
+        android:padding="9dp"
+        android:contentDescription="@string/add_to_cart_desc"
+        app:tint="@color/pure_white" />
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Colors -->
+    <color name="espresso">#382419</color>
+    <color name="espresso_deep">#281A12</color>
+
+    <!-- Background Colors -->
+    <color name="oat_milk">#FFF7ED</color>
+    <color name="latte">#D9B99B</color>
+    <color name="surface_warm">#F0E1D0</color>
+    <color name="surface_soft">#F2E7DA</color>
+
+    <!-- Accent Colors -->
+    <color name="caramel">#C58B57</color>
+    <color name="cocoa">#79563B</color>
+    <color name="sage">#84917A</color>
+
+    <!-- Neutral Colors -->
+    <color name="pure_white">#FFFFFF</color>
+    <color name="border_soft">#D9B99B</color>
+
+    <!-- Legacy aliases: keep old references working -->
+    <color name="coffee_background">@color/oat_milk</color>
+    <color name="coffee_primary">@color/espresso</color>
+    <color name="coffee_secondary">@color/cocoa</color>
+    <color name="coffee_accent">@color/latte</color>
+    <color name="coffee_brown">@color/caramel</color>
+    <color name="coffee_border">@color/border_soft</color>
+    <color name="coffee_card">@color/surface_soft</color>
+
+</resources>
