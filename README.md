@@ -86,20 +86,30 @@ Typeface yang digunakan adalah Instrument Serif untuk headline, Manrope untuk an
 
 ## Menjalankan Proyek
 
-### Persyaratan
+### Opsi 1: Unduh APK (Cara Termudah)
+
+Jika Anda hanya ingin mencoba aplikasi di perangkat Android Anda tanpa harus membuka kode sumbernya:
+
+1. Buka halaman **[Releases](https://github.com/Kxrumii/KopiDanNyemil/releases)** pada repositori ini.
+2. Unduh file `KopiDanNyemil-v1.0.0.apk` (atau versi terbaru) dari bagian **Assets**.
+3. Pindahkan file tersebut ke perangkat Android Anda dan instal. (Pastikan Anda telah mengizinkan instalasi dari *sumber tidak dikenal/Unknown Sources* di pengaturan perangkat).
+
+### Opsi 2: Build dari Source Code (Android Studio)
+
+#### Persyaratan
 
 - Android Studio dengan dukungan proyek Android berbasis Gradle.
 - Android SDK yang sesuai dengan konfigurasi proyek.
 - Perangkat Android atau emulator dengan API 27 atau lebih baru.
 
-### Clone repository
+#### Clone repository
 
 ```bash
 git clone https://github.com/Kxrumii/KopiDanNyemil.git
 cd KopiDanNyemil
 ```
 
-### Buka dan jalankan
+#### Buka dan jalankan
 
 1. Buka folder proyek melalui Android Studio.
 2. Tunggu proses Gradle Sync selesai.
