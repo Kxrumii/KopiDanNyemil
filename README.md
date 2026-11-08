@@ -1,6 +1,6 @@
 # Kopi dan Nyemil
 
-Aplikasi Android pemesanan kopi dan camilan yang dibuat sebagai proyek pembelajaran **Pemrograman Mobile**. Aplikasi ini mengusung identitas visual **Liquid Espresso** dengan komposisi editorial, fotografi produk, tipografi ekspresif, dan interaksi yang terarah.
+Aplikasi Android pemesanan kopi dan camilan yang dibuat sebagai proyek pembelajaran **Pengembangan Aplikasi Mobile**.
 
 ## Daftar Isi
 
@@ -213,10 +213,9 @@ Berikut adalah pratinjau antarmuka aplikasi Kopi dan Nyemil:
 
 ## Kredit Aset
 
-Aplikasi menggunakan foto produk, ikon, ilustrasi, dan typeface lokal di dalam resource Android.
-
-Lengkapi bagian ini sebelum publikasi repository dengan informasi sumber aset yang benar, termasuk halaman sumber, nama kreator/fotografer, dan ketentuan lisensi bila berlaku. Jangan mencantumkan sumber atau lisensi yang belum diverifikasi.
+Aplikasi menggunakan foto produk dari https://www.pexels.com/@dickydikiw/, sedangkan ikon, ilustrasi, dan typeface dari lokal di dalam resource Android.
 
 ---
 
 Dibuat sebagai proyek pembelajaran Android Development menggunakan Kotlin dan XML / Android Views.
+### Maintained by Fahri Khairun Ariansyah
