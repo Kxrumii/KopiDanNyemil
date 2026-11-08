@@ -2,8 +2,6 @@
 
 Aplikasi Android pemesanan kopi dan camilan yang dibuat sebagai proyek pembelajaran **Pemrograman Mobile**. Aplikasi ini mengusung identitas visual **Liquid Espresso** dengan komposisi editorial, fotografi produk, tipografi ekspresif, dan interaksi yang terarah.
 
-> **Status proyek:** fitur utama aplikasi telah diimplementasikan dan diuji secara manual. Penyempurnaan motion design, pemeriksaan visual akhir, dan dokumentasi screenshot masih dapat dilanjutkan.
-
 ## Daftar Isi
 
 - [Tentang Aplikasi](#tentang-aplikasi)
@@ -199,17 +197,19 @@ Pengujian visual akhir tetap perlu dilakukan pada perangkat dengan ukuran layar 
 
 ## Screenshot
 
-Screenshot halaman aplikasi belum disertakan dalam dokumen ini. Tambahkan screenshot aktual setelah pemeriksaan visual final, misalnya untuk:
+Berikut adalah pratinjau antarmuka aplikasi Kopi dan Nyemil:
 
-- Welcome dan Sign Up.
-- Login dan Register.
-- Home.
-- Profile.
-- Order / Cart.
-- Order / Address.
-- Confirmation.
+| Welcome | Sign Up | Login |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/welcome.jpg" width="250"/> | <img src="docs/screenshots/sign.jpg" width="250"/> | <img src="docs/screenshots/login.jpg" width="250"/> |
 
-Simpan gambar pada folder dokumentasi, misalnya `docs/screenshots/`, lalu tampilkan menggunakan Markdown image agar halaman README memiliki preview aplikasi.
+| Register | Home | Profile |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/register.jpg" width="250"/> | <img src="docs/screenshots/home.png" width="250"/> | <img src="docs/screenshots/profile.jpg" width="250"/> |
+
+| Order / Cart | Address | Confirmation |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/order.png" width="250"/> | <img src="docs/screenshots/address.png" width="250"/> | <img src="docs/screenshots/receipt.png" width="250"/> |
 
 ## Kredit Aset
 
